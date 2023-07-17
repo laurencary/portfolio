@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=League+Gothic');
+
+.nav-bar-container {
+    background-color: #4a5148;
+    width: 92vw;
+    height: 44px;
+    padding: 0px 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar-name {
+    font-family: 'League Gothic';
+    /* font-weight: 600; */
+    font-size: 30px;
+}
+
