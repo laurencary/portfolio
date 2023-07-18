@@ -38,3 +38,19 @@
     margin: 10px;
     display: inline-block;
 }
+
+.headshot {
+    height: 120px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 0.5em;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-me-text {
+    margin-bottom: 5px;
+}
