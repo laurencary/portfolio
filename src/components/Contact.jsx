@@ -1,4 +1,4 @@
-const Footer = () => {
+const Contact = () => {
     return (
         <footer id="footer">
             <div class="inner">
@@ -46,4 +46,4 @@ const Footer = () => {
     )
 }
 
-export default Footer;
+export default Contact;

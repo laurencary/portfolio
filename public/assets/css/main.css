@@ -173,8 +173,8 @@ input, select, textarea {
 		letter-spacing: -0.035em;
 	}
 	
-	#about h1 {
-		margin: 0 0 1em 0;
+	.heading h1 {
+		margin: -0.1em 0 1em 0;
 	}
 
 		h1 a {
@@ -185,7 +185,7 @@ input, select, textarea {
 
 			h1 {
 				font-size: 2em;
-				margin: 0 0 1em 0;
+				margin: -0.1em 0 1em 0;
 			}
 
 		}
@@ -3316,7 +3316,7 @@ input, select, textarea {
 
 /* Wrapper */
 
-	#wrapper > * > .inner {
+	#wrapper > * > .inner, .heading {
 		width: 100%;
 		max-width: 68em;
 		margin: 0 auto;
@@ -3325,7 +3325,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#wrapper > * > .inner {
+			#wrapper > * > .inner, .heading {
 				padding: 0 1.25em;
 			}
 
