@@ -14,7 +14,7 @@ function App() {
         <MenuIcon />
         <Header />
         <div id="main">
-          <div class="inner">
+          <div className="inner">
             <Switch>
               <Route path="/swe">
                 <Software />

@@ -1,7 +1,7 @@
 const Menu = () => {
     return (
         <nav id="menu">
-            <div class="inner">
+            <div className="inner">
                 <h2>Menu</h2>
                 <ul>
                     {/* <li><a href="index.html">Home</a></li> */}
@@ -11,7 +11,7 @@ const Menu = () => {
                     <li><a href="#connect">Contact</a></li>
                 </ul>
             </div>
-            <a class="close" href="#menu">Close</a>
+            <a className="close" href="#menu">Close</a>
         </nav>
     )
 }
