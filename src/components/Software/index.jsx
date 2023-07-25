@@ -4,13 +4,11 @@ import Projects from './Projects';
 
 const Software = () => {
     return (
-        <div id="main">
-            <div class="inner">
-                <About />
-                <Projects />
-                <Skills />
-            </div>
-        </div>
+        <>
+            <About />
+            <Projects />
+            <Skills />
+        </>
     )
 }
 
